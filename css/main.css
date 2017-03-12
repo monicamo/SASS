@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+a {
+  font-style: italic;
+  text-decoration: none; }
+
+.error, .critical-error, .cta-button, .super-cta-button {
+  color: red; }
+
+.critical-error {
+  bottom: 1px solid red;
+  font-weight: bold; }
+
+/* 
+@import url();
+@import "http://"
+@import "filename.css"
+@import "style-screen" screen;
+*/
+body {
+  font-family: "Alegreya Sans", Arial, sans-serif;
+  color: #222222;
+  /*color: rgb(10, 15, 50);
+  background-color: hsl(60, 50%, 100%);*/
+  font-size: 1.125em;
+  /*
+  @media only screen and (max-width: 960px) {
+  	font-size: 125%;
+  }
+  */ }
+  @media only screen and (max-width: 960px) {
+    body {
+      font-size: 125%; } }
+
+h1, h2, h3, h4 {
+  font-family: "Titillium Web", Georgia, serif; }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold; }
+
+p {
+  font-family: "Alegreya Sans", Arial, sans-serif; }
+
+a {
+  color: #f27731; }
+  a:hover {
+    color: #ca510d; }
+
+.sub-title {
+  font-style: italic; }
+
+.sub-title {
+  font-size: 1.25em; }
+
+.warning-button, .cta-button, .super-cta-button {
+  background-color: orange;
+  color: #fff;
+  padding: 8px 12px; }
+  .warning-button:hover, .cta-button:hover, .super-cta-button:hover {
+    background-color: #ffb733; }
+
+* html body {
+  font-size: 125%; }
+
+.cta-button, .super-cta-button {
+  border-radius: 6px;
+  font-weight: bold; }
+
+.super-cta-button {
+  font-size: 1.25em; }
+
+@media screen {
+  .foo, .super-cta-button {
+    color: red; }
+
+  .super-cta-button {
+    font-size: 1.25em; } }
+#header {
+  border-radius: 12px;
+  border: 1px solid #f0f;
+  box-shadow: 2px 0px 4px #0f0, 1px 1px 6px #f27731;
+  -moz-box-shadow: 2px 0px 4px #0f0, 1px 1px 6px #f27731;
+  -webkit-box-shadow: 2px 0px 4px #0f0, 1px 1px 6px #f27731;
+  height: 60px;
+  background-color: #170a48; }
+  #header #main-menu li {
+    display: inline; }
+  #header #main-menu a {
+    color: white;
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(254, 254, 254, 0);
+    transition: border-bottom 0.5s;
+    transition-timing-function: ease-in-out; }
+    #header #main-menu a:hover {
+      border-bottom: 1px solid #fefefe; }
+
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (max-width: 960px) {
+    #main {
+      width: auto;
+      max-width: 960px; } }
+  #main #content {
+    float: left;
+    width: 69.75%; }
+  #main #sidebar {
+    float: right;
+    width: 23.25%; }
+    #main #sidebar li {
+      list-style-type: none;
+      padding: 1em 1.25em;
+      border-bottom: 1px dashed #999; }
+      #main #sidebar li:hover {
+        background-color: #efefef; }
+
+#footer {
+  clear: both;
+  height: 90px;
+  background-color: #ccf962; }
+
+/*# sourceMappingURL=main.css.map */
